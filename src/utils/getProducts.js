@@ -1,6 +1,6 @@
 import algoliasearch from "algoliasearch/lite";
 
-const client = algoliasearch("8329NI8LQK", "983fd1f5f5b4e49eb2c0faebee7113c6");
+const client = algoliasearch("8329NI8LQK", "61ba6b16dc3f69daf2cf20997e42bce1");
 const index = client.initIndex("ecommerce_products");
 
 export const loadProducts = async (limit) => {
