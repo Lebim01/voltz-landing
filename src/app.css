@@ -10,30 +10,35 @@ body {
   font-family: 'Poppins';
   font-style: normal;
   src: local('Poppins'), url(/fonts/poppins/Poppins-Regular.ttf) format('truetype');
+  font-display: swap;
 }
 
 @font-face {
   font-family: 'PoppinsBold';
   font-style: normal;
   src: local('Poppins'), url(/fonts/poppins/Poppins-Bold.ttf) format('truetype');
+  font-display: swap;
 }
 
 @font-face {
   font-family: 'PoppinsSemiBold';
   font-style: normal;
   src: local('Poppins'), url(/fonts/poppins/Poppins-SemiBold.ttf) format('truetype');
+  font-display: swap;
 }
 
 @font-face {
   font-family: 'PoppinsMedium';
   font-style: normal;
   src: local('Poppins'), url(/fonts/poppins/Poppins-Medium.ttf) format('truetype');
+  font-display: swap;
 }
 
 @font-face {
   font-family: 'Inter';
   font-style: normal;
   src: local('Inter'), url(/fonts/inter/Inter.ttf) format('truetype');
+  font-display: swap;
 }
 
 .font-poppins {
