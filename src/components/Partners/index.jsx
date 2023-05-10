@@ -114,7 +114,7 @@ const partners = [
 
 const Partners = () => {
   return (
-    <div className="bg-white px-[22px] py-[32px] overflow-hidden border-[0px] border-b border-solid border-border-1 relative h-[140px] min-h-[140px]">
+    <div className="bg-white px-[22px] py-[32px] overflow-hidden border-[0px] border-b border-solid border-border-1 relative h-[140px] min-h-[140px] desktop-container">
       <div className="absolute left-[32px] top-[32px] flex space-x-[16px] h-[140px] min-h-[140px] max-h-[140px] partners-animation" style={{ animationDuration: `${partners.length * 5}s`  }}>
         {partners.map((url) => (
           <div className="h-[140px] w-[140px] min-w-[140px] min-h-[140px] flex items-center justify-center border border-solid border-border-2" key={url}>
@@ -122,7 +122,6 @@ const Partners = () => {
           </div>
         ))}
       </div>
-
     </div>
   );
 };
