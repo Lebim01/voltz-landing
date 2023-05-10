@@ -1,9 +1,8 @@
 import './app.css'
 import 'swiper/css';
-import 'swiper/css/navigation';
 import 'swiper/css/pagination';
 
-import Swiper, { Navigation, Pagination } from 'swiper';
+import { useState } from 'preact/hooks';
 
 import Banner from './components/Banner'
 import Header from './components/Header'
@@ -16,24 +15,28 @@ import TopProducts from './components/TopProducts'
 import UseVoltz from './components/UseVoltz';
 import Footer from './components/Footer';
 
-const swiper = new Swiper('.swiper', {
-  // configure Swiper to use modules
-  modules: [Navigation, Pagination],
-});
-
 export function App() {
+  const [opened, setOpened] = useState(true)
+
   return (
     <>
-      <Header />
-      <Banner />
-      <Partners />
-      <TopProducts />
-      <TopBrands />
-      <ReasonsToUseVoltz />
-      <PassUsWork />
-      <Reviews />
-      <UseVoltz />
-      <Footer />
+      <div className='relative overflow-hidden'>
+        <div className='bg-white transition-all duration-300' style={{ transform: opened ? "translateX(-247px)" : "translateX(0px)" }}>
+          <Header opened={opened} onToggleMenu={() => setOpened(s => !s)} />
+          <Banner />
+          <Partners />
+          <TopProducts />
+          <TopBrands />
+          <ReasonsToUseVoltz />
+          <PassUsWork />
+          <Reviews />
+          <UseVoltz />
+          <Footer />
+        </div>
+        <div className='absolute top-0 right-0 bg-[#E4E9FC] w-[247px] h-screen transition-all duration-300' style={{ transform: opened ? "translateX(0)" : "translateX(247px)" }}>
+
+        </div>
+      </div>
     </>
   )
 }

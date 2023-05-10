@@ -4,7 +4,7 @@ const Slide = ({ image, text, name, subname }) => {
       <div className="flex flex-col space-y-[20px]">
         <img src={image} alt="avatar" className="h-[64px] w-[64px] max-w-[64px]" />
 
-        <span className="font-medium text-base">
+        <span className="font-medium text-base text-left">
           {text}
         </span>
       </div>

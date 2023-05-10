@@ -59,13 +59,20 @@ const Reviews = () => {
         </div>
 
         <div className="flex space-x-[16px] border-[0px] border-b border-solid border-border-1 pb-[40px] md:justify-center">
-          <Button className="bg-primary hover:bg-primary-dark text-base px-[24px] py-[10px] text-white font-semibold">
-            COMPRA YA
-          </Button>
+          <a href="https://app.voltz.mx/#/home-view">
+            <Button className="bg-primary hover:bg-primary-dark text-base px-[24px] py-[10px] text-white font-semibold">
+              COMPRA YA
+            </Button>
+          </a>
 
-          <Button className="bg-secondary hover:bg-secondary-dark text-base px-[0px] py-[10px] flex-1 md:flex-none text-black font-semibold md:w-min whitespace-nowrap md:px-[24px]">
-            VENTA ASISTIDA
-          </Button>
+          <a
+            href="https://api.whatsapp.com/send/?phone=523313078145&text=Hola%2C+quiero+que+me+cotices%3A&type=phone_number&app_absent=0"
+            target="_blank"
+          >
+            <Button className="bg-secondary hover:bg-secondary-dark text-base px-[0px] py-[10px] flex-1 md:flex-none text-black font-semibold md:w-min whitespace-nowrap md:px-[24px]">
+              VENTA ASISTIDA
+            </Button>
+          </a>
         </div>
 
         <Swiper
