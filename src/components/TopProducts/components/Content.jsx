@@ -113,12 +113,12 @@ const RenderProduct = ({ prod }) => {
               </div>
             )}
 
-            {prod.raw?.url_source && (
+            {prod.maker_web && (
               <div className="flex justify-between items-center section-border pb-[16px]">
                 <span className="font-medium text-base text-text-secondary">
                   Web del fabricante
                 </span>
-                <a href={prod.raw?.url_source} target="_blank">
+                <a href={prod.maker_web} target="_blank">
                   <Button className="border border-solid border-text-secondary text-text-secondary px-[16px] py-[4px] font-semibold text-base">
                     Visitar
                   </Button>
