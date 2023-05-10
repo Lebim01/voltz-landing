@@ -16,7 +16,7 @@ const Reason3 = () => {
           MÁS CÓMODO
         </Button>
         <div className="flex flex-col space-y-[16px]">
-          <span className="text-lg md:text-2xl text-text-primary">
+          <span className="text-lg md:text-2xl text-text-primary font-poppins">
             Tú decides cómo quieres comprar.
           </span>
           <span className="text-text-tertiary text-base md:text-base-md">
@@ -36,7 +36,7 @@ const Reason3 = () => {
             href="https://api.whatsapp.com/send/?phone=523313078145&text=Hola%2C+quiero+que+me+cotices%3A&type=phone_number&app_absent=0"
             target="_blank"
           >
-            <Button className="bg-secondary hover:bg-secondary-dark w-min whitespace-nowrap text-black font-semibold text-base px-[24px] py-[10px]">
+            <Button className="bg-secondary hover:bg-secondary-dark w-min whitespace-nowrap text-text-primary font-semibold text-base px-[24px] py-[10px]">
               VENTA ASISTIDA
             </Button>
           </a>

@@ -16,7 +16,7 @@ const Reason2 = () => {
           MÁS CONVENIENTE
         </Button>
         <div className="flex flex-col space-y-[16px]">
-          <span className="text-lg md:text-2xl text-text-primary">
+          <span className="text-lg md:text-2xl text-text-primary font-poppins">
             La mejor decisión en cada compra.
           </span>
           <span className="text-text-tertiary text-base md:text-base-md">

@@ -30,7 +30,7 @@ const SideBar = () => {
         target="_blank"
         className="w-full box-border"
       >
-        <Button className="bg-secondary text-black hover:bg-secondary-dark font-semibold whitespace-nowrap px-[24px] py-[16px]">
+        <Button className="bg-secondary text-text-primary hover:bg-secondary-dark font-semibold whitespace-nowrap px-[24px] py-[16px]">
           VENTA ASISTIDA
         </Button>
       </a>

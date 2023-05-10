@@ -24,7 +24,7 @@ const TopProducts = () => {
         id="top-products"
         title="Top 5 productos más cotizados"
         icon="/assets/products-icon.svg"
-        opened={opened}
+        opened={opened.opened}
         className={"desktop-container text-base md:text-lg"}
         onToggle={() => {
           setOpened((state) => {

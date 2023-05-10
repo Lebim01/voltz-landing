@@ -16,7 +16,7 @@ const Reason1 = () => {
           MÁS FACIL
         </Button>
         <div className="flex flex-col space-y-[16px]">
-          <span className="text-lg md:text-2xl text-text-primary">
+          <span className="text-lg md:text-2xl text-text-primary font-poppins">
             Encuentra todo en un solo lugar.
           </span>
           <span className="text-text-tertiary text-base md:text-base-md">

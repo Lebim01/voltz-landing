@@ -24,7 +24,7 @@ const UseVoltz = () => {
           href="https://api.whatsapp.com/send/?phone=523313078145&text=Hola%2C+quiero+que+me+cotices%3A&type=phone_number&app_absent=0"
           target="_blank"
         >
-          <Button className="bg-secondary hover:bg-secondary-dark font-semibold text-base text-black md:px-[24px] md:py-[16px]">
+          <Button className="bg-secondary hover:bg-secondary-dark font-semibold text-base text-text-primary md:px-[24px] md:py-[16px]">
             VENTA ASISTIDA
           </Button>
         </a>

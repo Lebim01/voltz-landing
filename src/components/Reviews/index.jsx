@@ -69,7 +69,7 @@ const Reviews = () => {
             href="https://api.whatsapp.com/send/?phone=523313078145&text=Hola%2C+quiero+que+me+cotices%3A&type=phone_number&app_absent=0"
             target="_blank"
           >
-            <Button className="bg-secondary hover:bg-secondary-dark text-base px-[22px] py-[10px] flex-1 md:flex-none text-black font-semibold md:w-min whitespace-nowrap">
+            <Button className="bg-secondary hover:bg-secondary-dark text-base px-[22px] py-[10px] flex-1 md:flex-none text-text-primary font-semibold md:w-min whitespace-nowrap">
               VENTA ASISTIDA
             </Button>
           </a>
