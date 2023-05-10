@@ -130,7 +130,6 @@ const ContentProducts = (props) => {
   const [products, setProducts] = useState([]);
 
   useEffect(() => {
-    console.log("hola")
     loadProducts(5).then(setProducts).then(props?.onLoad);
   }, []);
 
