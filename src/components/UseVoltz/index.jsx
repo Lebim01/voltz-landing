@@ -19,14 +19,14 @@ const UseVoltz = () => {
 
         <div className="grid grid-cols-2 w-full py-[48px] gap-y-[32px] gap-x-[88px]">
           <div className="flex justify-start space-x-[16px] items-start">
-            <img src="/assets/right-arrow-icon.svg" className="w-[30px]" />
+            <img src="/assets/right-arrow-icon.svg" className="w-[30px]" alt="arrow icon" />
             <div className="flex-1 text-white text-lg">
               <span>Centralización de catálogos digitales de marcas.</span>
             </div>
           </div>
 
           <div className="flex justify-start space-x-[16px] items-start">
-            <img src="/assets/right-arrow-icon.svg" className="w-[30px]" />
+            <img src="/assets/right-arrow-icon.svg" className="w-[30px]" alt="arrow icon" />
             <div className="flex-1 text-white text-lg">
               <span>
                 Sincronización de stock y precios de cientos de distribuidores y
@@ -36,7 +36,7 @@ const UseVoltz = () => {
           </div>
 
           <div className="flex justify-start space-x-[16px] items-start">
-            <img src="/assets/right-arrow-icon.svg" className="w-[30px]" />
+            <img src="/assets/right-arrow-icon.svg" className="w-[30px]" alt="arrow icon" />
             <div className="flex-1 text-white text-lg">
               <span>
                 Utilización de inteligencia artificial para encontrar justo lo
@@ -46,14 +46,14 @@ const UseVoltz = () => {
           </div>
 
           <div className="flex justify-start space-x-[16px] items-start">
-            <img src="/assets/right-arrow-icon.svg" className="w-[30px]" />
+            <img src="/assets/right-arrow-icon.svg" className="w-[30px]" alt="arrow icon" />
             <div className="flex-1 text-white text-lg">
               <span>Obtención de la mejor oferta de precio del mercado.</span>
             </div>
           </div>
 
           <div className="flex justify-start space-x-[16px] items-start">
-            <img src="/assets/right-arrow-icon.svg" className="w-[30px]" />
+            <img src="/assets/right-arrow-icon.svg" className="w-[30px]" alt="arrow icon" />
             <div className="flex-1 text-white text-lg">
               <span>
                 Simplificación del proceso de pago, entrega y facturación.

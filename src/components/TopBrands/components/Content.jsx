@@ -26,22 +26,27 @@ const RenderContent = ({ prod, products }) => {
         <img
           className="h-[56px] w-[56px] rounded-full border border-solid border-border-1"
           src={products[0]?.image_cover}
+          alt="product-1"
         />
         <img
           className="h-[56px] w-[56px] rounded-full border border-solid border-border-1"
           src={products[1]?.image_cover}
+          alt="product-2"
         />
         <img
           className="h-[56px] w-[56px] rounded-full border border-solid border-border-1"
           src={products[2]?.image_cover}
+          alt="product-3"
         />
         <img
           className="h-[56px] w-[56px] rounded-full border border-solid border-border-1"
           src={products[3]?.image_cover}
+          alt="product-4"
         />
         <img
           className="h-[56px] w-[56px] rounded-full border border-solid border-border-1"
           src={products[4]?.image_cover}
+          alt="product-5"
         />
         {products?.length - 5 > 0 && (
           <span className="h-[56px] rounded-full bg-text-primary text-white text-lg flex items-center px-[16px] border border-solid border-border-1">

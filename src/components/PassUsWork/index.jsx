@@ -28,11 +28,13 @@ const PassUsWork = () => {
         <img
           src="/assets/passus/mobile.png"
           className="w-full max-w-[800px] md:hidden"
+          alt="pass us work image"
           loading="lazy"
         />
         <img
           src="/assets/passus/desktop.png"
           className="w-full hidden md:block"
+          alt="pass us work image"
           loading="lazy"
         />
       </div>

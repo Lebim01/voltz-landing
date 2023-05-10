@@ -8,21 +8,21 @@ const JoinCommunity = () => {
 
         <a href="https://www.facebook.com/voltzmx">
           <div className="flex space-x-[8px] font-poppins font-medium text-base text-text-secondary">
-            <img src="/assets/facebook.svg" />
+            <img src="/assets/facebook.svg" alg="facebook-icon" />
             <span>Facebook</span>
           </div>
         </a>
 
         <a href="https://www.instagram.com/voltz_app/?hl=es">
           <div className="flex space-x-[8px] font-poppins font-medium text-base text-text-secondary">
-            <img src="/assets/instagram.svg" />
+            <img src="/assets/instagram.svg" alt="instagram-icon" />
             <span>Instagram</span>
           </div>
         </a>
 
         <a href="https://www.linkedin.com/company/voltz-app/?viewAsMember=true">
           <div className="flex space-x-[8px] font-poppins font-medium text-base text-text-secondary">
-            <img src="/assets/linkedin.svg" />
+            <img src="/assets/linkedin.svg" alt="linkedin-icon" />
             <span>Linkedin</span>
           </div>
         </a>

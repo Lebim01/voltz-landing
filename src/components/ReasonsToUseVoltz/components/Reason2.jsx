@@ -7,6 +7,7 @@ const Reason2 = () => {
         <img
           src="/assets/reasons/reason-2.svg"
           className="w-[150px] md:w-[256px]"
+          alt="reason 2 image"
           loading="lazy"
         />
       </div>

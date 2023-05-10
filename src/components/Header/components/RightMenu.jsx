@@ -8,7 +8,7 @@ const RightMenu = () => {
         className="no-underline hover:underline decoration-primary"
       >
         <span className="flex font-semibold text-base text-text-primary space-x-[8px] items-center">
-          <img src="/assets/phone-icon.svg" />
+          <img src="/assets/phone-icon.svg" alt="phone-icon" />
           <span>(33) 1307-8145</span>
         </span>
       </a>
