@@ -20,7 +20,7 @@ const RenderContent = ({ prod, products }) => {
   return (
     <div className="bg-white rounded-[6px] flex flex-col justify-between items-center space-y-[34px] box-border h-full w-full py-[24px]">
       <div className="flex-1 w-3/5 flex justify-center items-center">
-        <img src={prod.image} className="w-3/5" />
+        <img src={prod.image} className="w-3/5" alt="brand image" />
       </div>
       <div className="flex space-x-[-16px]">
         <img
