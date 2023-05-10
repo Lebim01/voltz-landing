@@ -8,7 +8,7 @@ const JoinCommunity = () => {
 
         <a href="https://www.facebook.com/voltzmx">
           <div className="flex space-x-[8px] font-poppins font-medium text-base text-text-secondary">
-            <img src="/assets/facebook.svg" alg="facebook-icon" />
+            <img src="/assets/facebook.svg" alt="facebook-icon" />
             <span>Facebook</span>
           </div>
         </a>

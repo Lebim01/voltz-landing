@@ -83,6 +83,7 @@ const UseVoltz = () => {
           src="/assets/hand.png"
           loading="lazy"
           className="absolute h-[200px] right-0 lg:right-[20%] top-[-5%]"
+          alt="hand image"
         />
       </div>
     </div>
