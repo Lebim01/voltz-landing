@@ -24,9 +24,11 @@ const RenderProduct = ({ prod }) => (
         <span className="text-text-secondary text-base">
           $ {prod.price_best}
         </span>
-        <Button className="bg-primary hover:bg-primary-dark text-white px-[24px] py-[10px] font-semibold text-sm">
-          MEJORAR PRECIO
-        </Button>
+        <a href="https://app.voltz.mx/#/login-view">
+          <Button className="bg-primary hover:bg-primary-dark text-white px-[24px] py-[10px] font-semibold text-sm">
+            MEJORAR PRECIO
+          </Button>
+        </a>
       </div>
     </div>
     <div className="w-full">

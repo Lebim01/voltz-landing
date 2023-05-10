@@ -6,20 +6,26 @@ const JoinCommunity = () => {
           Únete a la comunidad
         </span>
 
-        <div className="flex space-x-[8px] font-poppins font-medium text-base text-text-secondary">
-          <img src="/assets/facebook.svg" />
-          <span>Facebook</span>
-        </div>
+        <a href="https://www.facebook.com/voltzmx">
+          <div className="flex space-x-[8px] font-poppins font-medium text-base text-text-secondary">
+            <img src="/assets/facebook.svg" />
+            <span>Facebook</span>
+          </div>
+        </a>
 
-        <div className="flex space-x-[8px] font-poppins font-medium text-base text-text-secondary">
-          <img src="/assets/instagram.svg" />
-          <span>Instagram</span>
-        </div>
+        <a href="https://www.instagram.com/voltz_app/?hl=es">
+          <div className="flex space-x-[8px] font-poppins font-medium text-base text-text-secondary">
+            <img src="/assets/instagram.svg" />
+            <span>Instagram</span>
+          </div>
+        </a>
 
-        <div className="flex space-x-[8px] font-poppins font-medium text-base text-text-secondary">
-          <img src="/assets/linkedin.svg" />
-          <span>Linkedin</span>
-        </div>
+        <a href="https://www.linkedin.com/company/voltz-app/?viewAsMember=true">
+          <div className="flex space-x-[8px] font-poppins font-medium text-base text-text-secondary">
+            <img src="/assets/linkedin.svg" />
+            <span>Linkedin</span>
+          </div>
+        </a>
       </div>
     </div>
   );

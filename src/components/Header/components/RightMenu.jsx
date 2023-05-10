@@ -12,9 +12,11 @@ const RightMenu = () => {
         </span>
       </a>
 
-      <Button className="w-min whitespace-nowrap border border-text-primary border-solid hover:bg-gray-200 font-semibold">
-        INICIAR SESION
-      </Button>
+      <a href="https://app.voltz.mx">
+        <Button className="w-min whitespace-nowrap border border-text-primary border-solid hover:bg-gray-200 font-semibold">
+          INICIAR SESION
+        </Button>
+      </a>
 
       <Button className="w-min whitespace-nowrap bg-primary text-white hover:bg-primary-dark font-semibold">
         COMPRAR YA

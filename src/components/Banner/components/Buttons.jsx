@@ -11,7 +11,7 @@ const Buttons = () => {
           VENTA ASISTIDA
         </Button>
       </div>
-      <div className="flex items-center space-x-[24px]">
+      <div className="flex items-center space-x-[24px] hidden">
         <Button className="!p-0 w-[64px] h-[64px] bg-text-secondary hover:bg-text-primary">
           <img src="/assets/play-icon.svg" alt="Play icon" />
         </Button>
