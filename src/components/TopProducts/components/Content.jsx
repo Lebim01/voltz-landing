@@ -93,11 +93,6 @@ const RenderProduct = ({ prod }) => {
                         <img src={url} />
                       </SwiperSlide>
                     ))}
-                    {prod.image_urls.map((url, index) => (
-                      <SwiperSlide key={`url-${index}`}>
-                        <img src={url} />
-                      </SwiperSlide>
-                    ))}
                   </Swiper>
                 </div>
               </>

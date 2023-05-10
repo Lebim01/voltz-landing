@@ -5,14 +5,28 @@ const index = client.initIndex("ecommerce_products");
 
 export const loadProducts = async (limit) => {
   const res = await index.search('', {
-    hitsPerPage: limit
+    hitsPerPage: limit,
+    attributesToRetrieve: [
+      'image_cover',
+      'brand',
+      'sku',
+      'currency',
+      'price_best',
+      'features',
+      'tech_file',
+      'image_urls',
+      'raw'
+    ]
   });
   return res.hits
 };
 
 export const loadCount = async (brand) => {
   const res = await index.search('', {
-    filters: `brand:${brand}`
+    filters: `brand:${brand}`,
+    attributesToRetrieve: [
+      'image_cover'
+    ]
   });
   return res.hits
 }
