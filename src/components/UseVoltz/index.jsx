@@ -64,7 +64,7 @@ const UseVoltz = () => {
 
         <div className="flex flex-col space-y-[16px]">
           <a href="https://app.voltz.mx/#/home-view">
-            <Button className="bg-primary hover:bg-primary-dark font-semibold text-base text-white">
+            <Button className="bg-primary hover:bg-primary-dark font-semibold text-base text-white px-[24px] py-[16px] whitespace-nowrap">
               COMPRA YA
             </Button>
           </a>
@@ -73,7 +73,7 @@ const UseVoltz = () => {
             href="https://api.whatsapp.com/send/?phone=523313078145&text=Hola%2C+quiero+que+me+cotices%3A&type=phone_number&app_absent=0"
             target="_blank"
           >
-            <Button className="bg-secondary hover:bg-secondary-dark font-semibold text-base text-text-primary w-min whitespace-nowrap">
+            <Button className="bg-secondary hover:bg-secondary-dark font-semibold text-base text-text-primary w-min whitespace-nowrap px-[24px] py-[16px]">
               VENTA ASISTIDA
             </Button>
           </a>

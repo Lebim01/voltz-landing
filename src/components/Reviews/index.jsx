@@ -45,7 +45,7 @@ const REVIEWS = [
 
 const Reviews = () => {
   return (
-    <div className="bg-white px-[18px] py-[40px] desktop-container">
+    <div className="bg-white px-[17px] py-[40px] desktop-container">
       <div className="flex flex-col space-y-[40px]">
         <div className="flex flex-col space-y-[24px]">
           <span className="text-center text-primary font-semibold text-base md:text-base-md">
@@ -53,14 +53,14 @@ const Reviews = () => {
           </span>
 
           <span className="text-xl font-poppins text-center md:text-2xl">
-            <span className="font-bold">Ayudamos a negocios como el tuyo,</span>{" "}
+            <span className="font-bold font-poppins">Ayudamos a negocios como el tuyo,</span>{" "}
             a ahorrar tiempo y dinero
           </span>
         </div>
 
         <div className="flex space-x-[16px] border-[0px] border-b border-solid border-border-1 pb-[40px] md:justify-center">
           <a href="https://app.voltz.mx/#/home-view">
-            <Button className="bg-primary hover:bg-primary-dark text-base px-[24px] py-[10px] text-white font-semibold">
+            <Button className="bg-primary hover:bg-primary-dark text-base px-[22px] py-[10px] text-white font-semibold">
               COMPRA YA
             </Button>
           </a>
@@ -69,7 +69,7 @@ const Reviews = () => {
             href="https://api.whatsapp.com/send/?phone=523313078145&text=Hola%2C+quiero+que+me+cotices%3A&type=phone_number&app_absent=0"
             target="_blank"
           >
-            <Button className="bg-secondary hover:bg-secondary-dark text-base px-[0px] py-[10px] flex-1 md:flex-none text-black font-semibold md:w-min whitespace-nowrap md:px-[24px]">
+            <Button className="bg-secondary hover:bg-secondary-dark text-base px-[22px] py-[10px] flex-1 md:flex-none text-black font-semibold md:w-min whitespace-nowrap">
               VENTA ASISTIDA
             </Button>
           </a>

@@ -6,14 +6,15 @@ export default {
   theme: {
     extend: {
       colors: {
+        
         "primary": "#2E5CFF",
         "primary-dark": "#002196",
         "secondary": "#F7CB2F",
         "secondary-dark": "#c69c07",
-
+        
         "border-1": "#E4E9FC",
         "border-2": "#E0E4F1",
-
+        
         "text-primary": "#2D3243",
         "text-secondary": "#394055",
         "text-tertiary": "#787F84",

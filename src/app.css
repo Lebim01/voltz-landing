@@ -22,6 +22,10 @@ body {
   font-family: Poppins;
 }
 
+.font-poppins * {
+  font-family: Poppins;
+}
+
 .font-inter {
   font-family: Inter;
 }

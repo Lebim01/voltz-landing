@@ -31,7 +31,7 @@ const RightMenu = () => {
         href="https://api.whatsapp.com/send/?phone=523313078145&text=Hola%2C+quiero+que+me+cotices%3A&type=phone_number&app_absent=0"
         target="_blank"
       >
-        <Button className="w-min whitespace-nowrap bg-secondary text-black hover:bg-secondary-dark font-semibold">
+        <Button className="w-min whitespace-nowrap bg-secondary text-black hover:bg-secondary-dark font-semibold px-[24px] py-[16px]">
           VENTA ASISTIDA
         </Button>
       </a>
