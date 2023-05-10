@@ -33,7 +33,7 @@ const RenderProduct = ({ prod }) => {
             <span className="text-text-secondary text-sm">{prod.sku}</span>
           </div>
           <span className="text-text-secondary text-base">
-            $ {prod.price_best} {prod.currency}
+            $ {prod.price_public} {prod.currency}
           </span>
           <a href="https://app.voltz.mx/#/login-view">
             <Button className="bg-primary hover:bg-primary-dark text-white px-[24px] py-[10px] font-semibold text-sm">
