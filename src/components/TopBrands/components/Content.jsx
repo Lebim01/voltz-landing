@@ -8,11 +8,11 @@ const BRANDS = [
   },
   {
     tag: "CONDUMEX",
-    image: "/assets/brands/condumex.png",
+    image: "/assets/brands/condumex.webp",
   },
   {
     tag: "IGOTO",
-    image: "/assets/brands/igoto.png",
+    image: "/assets/brands/igoto.webp",
   },
 ];
 
