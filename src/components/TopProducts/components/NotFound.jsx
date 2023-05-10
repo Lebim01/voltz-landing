@@ -8,7 +8,7 @@ const NotFound = () => {
       </div>
 
       <div className="flex justify-center">
-        <img src="/assets/not-found-image.svg" className="w-[52px]" alt="not-found-image" loading="lazy" />
+        <img src="/assets/not-found-image.webp" className="w-[52px]" alt="not-found-image" loading="lazy" />
       </div>
 
       <span className="text-base text-center text-text-primary">Sín costo, <span className="font-bold">nosotros lo buscamos por tí</span> y lo agregamos a tu cotización.</span>
