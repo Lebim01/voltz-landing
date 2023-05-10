@@ -11,12 +11,16 @@ import Collapsable from "@/components/common/Collapsable";
 
 const RenderProduct = ({ prod }) => {
   const [opened, setOpened] = useState(false);
+  const [image, setImage] = useState(prod.image_cover)
 
   return (
     <div className="bg-white rounded-[6px] pt-[24px] flex flex-col space-y-[18px] w-full w-auto-custom box-border">
       <div className="flex space-x-[8px] px-[16px] box-border">
         <img
-          src={prod.image_cover}
+          src={image}
+          onError={function() {
+            setImage('/assets/no-image.png')
+          }}
           className="h-[120px] w-[120px] object-fit"
           alt="product-cover"
           loading="lazy"
@@ -52,7 +56,7 @@ const RenderProduct = ({ prod }) => {
           }
           opened={opened}
           onToggle={() => {
-            setOpened(s => !s);
+            setOpened((s) => !s);
           }}
         />
         {opened && (
@@ -98,14 +102,16 @@ const RenderProduct = ({ prod }) => {
               </>
             )}
 
-            <div className="flex flex-col space-y-[16px] section-border pb-[16px]">
-              <span className="font-medium text-base text-text-secondary">
-                Especificaciones
-              </span>
-              <span className="text-text-secondary text-sm">
-                {prod.features}
-              </span>
-            </div>
+            {prod.features && (
+              <div className="flex flex-col space-y-[16px] section-border pb-[16px]">
+                <span className="font-medium text-base text-text-secondary">
+                  Especificaciones
+                </span>
+                <span className="text-text-secondary text-sm">
+                  {prod.features}
+                </span>
+              </div>
+            )}
 
             {prod.raw?.url_source && (
               <div className="flex justify-between items-center section-border pb-[16px]">
@@ -138,7 +144,7 @@ const ContentProducts = (props) => {
   }
 
   return (
-    <div className="bg-border-1 px-[21px] py-[16px] lg:py-[64px] pb-[40px]">
+    <div className="bg-border-1 px-[16px] py-[16px] lg:py-[64px] pb-[40px]">
       <div className="desktop-container flex flex-col flex-wrap space-y-[16px] lg:hidden">
         {products.map((prod) => (
           <RenderProduct prod={prod} />

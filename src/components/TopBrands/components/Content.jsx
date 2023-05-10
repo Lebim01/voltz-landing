@@ -75,7 +75,7 @@ const ContentProducts = (props) => {
   }, []);
 
   return (
-    <div className="bg-border-1 px-[21px] py-[16px] lg:py-[64px]">
+    <div className="bg-border-1 px-[16px] py-[16px] lg:py-[64px]">
       <div className="desktop-container">
         <div className="grid grid-cols-1 lg:grid-cols-3 gap-y-[16px] lg:gap-x-[20px] lg:px-[80px]">
           <RenderContent prod={BRANDS[0]} products={tecnolite} />
