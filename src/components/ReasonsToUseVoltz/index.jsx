@@ -6,7 +6,7 @@ const ReasonsToUseVoltz = () => {
   return (
     <div className="bg-white px-[16px] py-[48px] md:pb-[72px] desktop-container">
       <div className="border-[0px] border-b border-solid border-border-1 pb-[16px]">
-        <span className="text-lg md:text-2xl">
+        <span className="text-lg md:text-2xl text-text-primary">
           <span className="font-bold">3 razones</span>
           {" "}para usar Voltz
         </span>

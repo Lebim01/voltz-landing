@@ -47,12 +47,12 @@ const Reviews = () => {
   return (
     <div className="bg-white px-[17px] py-[40px] desktop-container">
       <div className="flex flex-col space-y-[40px]">
-        <div className="flex flex-col space-y-[24px]">
+        <div className="flex flex-col space-y-[24px] items-center">
           <span className="text-center text-primary font-semibold text-base md:text-base-md">
             COMPRAR MATERIAL ELÉCTRICO E ILUMINACIÓN
           </span>
 
-          <span className="text-xl font-poppins text-center md:text-2xl">
+          <span className="text-xl font-poppins text-center md:text-2xl text-text-primary max-w-[1000px]">
             <span className="font-bold font-poppins">Ayudamos a negocios como el tuyo,</span>{" "}
             a ahorrar tiempo y dinero
           </span>

@@ -23,7 +23,7 @@ const TopBrands = () => {
         id="top-brands"
         title="Top 3 marcas más populares"
         icon="/assets/brands-icon.svg"
-        className={"desktop-container text-base md:text-lg"}
+        className={"desktop-container text-base md:text-lg text-text-primary"}
         opened={opened.opened}
         onToggle={() => {
           setOpened((state) => {
