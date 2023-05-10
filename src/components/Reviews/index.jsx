@@ -1,6 +1,6 @@
 import Button from "@/components/common/Button";
-import { Swiper, SwiperSlide } from "swiper/react";
 
+import { Swiper, SwiperSlide } from "swiper/react";
 import { Pagination } from "swiper";
 import Slide from "./components/Slide";
 

@@ -3,6 +3,7 @@
 
 body {
   margin: 0px;
+  --swiper-pagination-bottom: 0px;
 }
 
 @font-face {
@@ -73,6 +74,10 @@ a {
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+.swiper-wrapper {
+  margin-bottom: 50px;
 }
 
 .swiper-slide img {
