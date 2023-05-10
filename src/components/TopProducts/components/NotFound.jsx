@@ -4,7 +4,7 @@ const NotFound = () => {
   return (
     <div className="flex flex-col justify-center px-[16px] py-[24px] space-y-[28px]">
       <div className="flex justify-center">
-        <span className="font-poppins text-xl text-text-primary">¿No lo encuentras?</span>
+        <span className="font-poppins text-xl text-text-primary font-semibold">¿No lo encuentras?</span>
       </div>
 
       <div className="flex justify-center">
