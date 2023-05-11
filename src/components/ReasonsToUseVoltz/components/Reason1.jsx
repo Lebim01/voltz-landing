@@ -13,7 +13,7 @@ const Reason1 = () => {
       </div>
       <div className="flex flex-col space-y-[24px]">
         <Button className="rounded-[4px] bg-text-primary text-white text-sm w-min whitespace-nowrap font-semibold px-[16px] py-[8px] leading-[24px] hover:cursor-default">
-          MÁS FACIL
+          MÁS FÁCIL
         </Button>
         <div className="flex flex-col space-y-[16px]">
           <span className="text-lg md:text-2xl text-text-primary font-poppins">
