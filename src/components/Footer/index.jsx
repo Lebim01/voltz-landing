@@ -18,15 +18,15 @@ const Footer = () => {
           <span className="font-poppins text-text-secondary font-medium text-sm">
             ©2023 Voltz by COCOCO
           </span>
-          <span className="font-poppins text-text-secondary font-medium text-sm">
+          <span className="font-poppins text-text-secondary text-sm">
             <a
               className="underline"
               href="https://cococoventures.notion.site/cococoventures/T-rminos-y-Condiciones-0436f36c8d03400d9db3116a92a96673"
               target="_blank"
             >
               Términos, condiciones
-            </a>{" "}
-            y{" "}
+            </a>
+            <span> y </span>
             <a
               className="underline"
               href="https://cococoventures.notion.site/cococoventures/AVISO-DE-PRIVACIDAD-INTEGRAL-e737e487c7144353aed20b88341ad3be"
