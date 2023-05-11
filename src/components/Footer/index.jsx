@@ -20,15 +20,15 @@ const Footer = () => {
           </span>
           <span className="font-poppins text-text-secondary text-sm">
             <a
-              className="underline"
+              className="underline font-poppins"
               href="https://cococoventures.notion.site/cococoventures/T-rminos-y-Condiciones-0436f36c8d03400d9db3116a92a96673"
               target="_blank"
             >
               Términos, condiciones
             </a>
-            <span> y </span>
+            <span className="font-poppins"> y </span>
             <a
-              className="underline"
+              className="underline font-poppins"
               href="https://cococoventures.notion.site/cococoventures/AVISO-DE-PRIVACIDAD-INTEGRAL-e737e487c7144353aed20b88341ad3be"
               target="_blank"
             >
