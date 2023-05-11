@@ -25,18 +25,28 @@ const PassUsWork = () => {
           </a>
         </div>
 
-        <img
-          src="/assets/passus/mobile.png"
-          className="w-[80%] max-w-[800px] md:hidden"
-          alt="pass us work image"
-          loading="lazy"
-        />
-        <img
-          src="/assets/passus/desktop.png"
-          className="hidden md:block flex-1 w-full lg:w-1/2"
-          alt="pass us work image"
-          loading="lazy"
-        />
+        <a
+          href="https://api.whatsapp.com/send/?phone=523313078145&text=Hola%2C+quiero+que+me+cotices%3A&type=phone_number&app_absent=0"
+          target="_blank"
+        >
+          <img
+            src="/assets/passus/mobile.png"
+            className="w-[80%] max-w-[800px] md:hidden"
+            alt="pass us work image"
+            loading="lazy"
+          />
+        </a>
+        <a
+          href="https://api.whatsapp.com/send/?phone=523313078145&text=Hola%2C+quiero+que+me+cotices%3A&type=phone_number&app_absent=0"
+          target="_blank"
+        >
+          <img
+            src="/assets/passus/desktop.png"
+            className="hidden md:block flex-1 w-full lg:w-1/2"
+            alt="pass us work image"
+            loading="lazy"
+          />
+        </a>
       </div>
     </div>
   );
