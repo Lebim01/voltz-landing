@@ -50,7 +50,7 @@ export function App() {
           <Banner />
           <Partners />
           <TopProducts />
-          <TopBrands />
+          {/*<TopBrands />*/}
           <ReasonsToUseVoltz />
           <PassUsWork />
           <Reviews />
