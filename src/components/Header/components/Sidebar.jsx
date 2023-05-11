@@ -15,7 +15,7 @@ const SideBar = () => {
 
       <a href="https://app.voltz.mx" className="w-full box-border">
         <Button className="border border-text-primary border-solid hover:bg-gray-200 font-semibold">
-          INICIAR SESION
+          INICIAR SESIÓN
         </Button>
       </a>
 
