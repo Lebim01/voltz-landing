@@ -34,6 +34,7 @@ const PassUsWork = () => {
             src="/assets/passus/mobile.png"
             alt="pass us work image"
             loading="lazy"
+            className="w-full"
           />
         </a>
         <a
@@ -45,6 +46,7 @@ const PassUsWork = () => {
             src="/assets/passus/desktop.png"
             alt="pass us work image"
             loading="lazy"
+            className="w-full"
           />
         </a>
       </div>
