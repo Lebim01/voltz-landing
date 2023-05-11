@@ -13,8 +13,8 @@ const Footer = () => {
         <Voltz />
       </div>
 
-      <div className="w-full px-[32px]">
-        <div className="flex flex-col md:flex-row justify-center items-center px-[32px] py-[40px] space-y-[16px] md:space-y-[0px] md:justify-between w-full box-border">
+      <div className="w-full md:px-[32px]">
+        <div className="flex flex-col md:flex-row justify-center items-center px-[32px] py-[40px] space-y-[16px] md:space-y-[0px] md:justify-between w-full box-border md:border-t md:border-solid md:border-border-1">
           <span className="font-poppins text-text-secondary font-medium text-sm">
             ©2023 Voltz by COCOCO
           </span>
