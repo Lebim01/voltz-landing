@@ -8,6 +8,7 @@ export const loadProducts = async (limit) => {
     hitsPerPage: limit,
     attributesToRetrieve: [
       'image_cover',
+      'sku_description',
       'brand',
       'sku',
       'currency',

@@ -44,7 +44,7 @@ const RenderProduct = ({ prod }) => {
       </div>
       <div className="w-full px-[16px] box-border">
         <p className="m-[0px] text-base text-text-secondary w-full">
-          {prod.features}
+          {prod.sku_description}
         </p>
       </div>
       <div className="w-full border-[0px] border-t border-b border-solid border-border-1 box-border">
