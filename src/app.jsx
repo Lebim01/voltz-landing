@@ -2,7 +2,7 @@ import './app.css'
 import 'swiper/css';
 import 'swiper/css/pagination';
 
-import { useState } from 'preact/hooks';
+import { useEffect, useState } from 'preact/hooks';
 
 import Banner from './components/Banner'
 import Header from './components/Header'
@@ -18,6 +18,29 @@ import SideBar from './components/Header/components/Sidebar';
 
 export function App() {
   const [opened, setOpened] = useState(false)
+
+  useEffect(() => {
+    const body = document.querySelector('body')
+    body.onscroll = function(e){
+      const totalHeight = document.body.clientHeight;
+      const scrollTop = window.pageYOffset + window.innerHeight;
+
+      console.log({ height: totalHeight, scroll: scrollTop+100 })
+
+      if(scrollTop + 100 < totalHeight){
+        // dejar bottom 20px
+        if(document.body.classList.contains("move-trengo")){
+          document.body.classList.remove("move-trengo")
+        }
+      }
+      // mover bottom 100px
+      else{
+        if(!document.body.classList.contains("move-trengo")){
+          document.body.classList.add("move-trengo")
+        }
+      }
+    }
+  }, [])
 
   return (
     <>

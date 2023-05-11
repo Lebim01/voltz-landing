@@ -126,3 +126,11 @@ a {
 .desktop-container {
   @apply max-w-[1440px] mx-auto md:items-center;
 }
+
+.TrengoWidgetLauncher__iframe {
+  transition: 500ms bottom;
+}
+
+body.move-trengo .TrengoWidgetLauncher__iframe {
+  bottom: 100px;
+}
