@@ -26,7 +26,7 @@ const Reason3 = () => {
             seleccionar los productos que necesitas.
           </span>
         </div>
-        <div className="flex space-x-[16px]">
+        <div className="flex space-x-[16px] justify-center lg:justify-start">
           <a href="https://app.voltz.mx/#/home-view">
             <Button className="bg-primary hover:bg-primary-dark w-min whitespace-nowrap text-white font-semibold text-base px-[24px] py-[10px]">
               COMPRA YA

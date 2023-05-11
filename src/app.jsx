@@ -25,8 +25,6 @@ export function App() {
       const totalHeight = document.body.clientHeight;
       const scrollTop = window.pageYOffset + window.innerHeight;
 
-      console.log({ height: totalHeight, scroll: scrollTop+100 })
-
       if(scrollTop + 100 < totalHeight){
         // dejar bottom 20px
         if(document.body.classList.contains("move-trengo")){
