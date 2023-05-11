@@ -3,7 +3,7 @@ import Button from "@/components/common/Button";
 const PassUsWork = () => {
   return (
     <div className="bg-primary px-[18px] py-[40px]">
-      <div className="flex flex-col md:flex-row space-y-[24px] desktop-container md:space-x-[144px]">
+      <div className="flex flex-col items-center md md:flex-row space-y-[24px] desktop-container md:space-x-[144px]">
         <div className="flex flex-col space-y-[24px]">
           <div className="flex flex-col space-y-[16px]">
             <span className="text-white font-semibold text-xl font-poppins md:text-3xl">
@@ -27,7 +27,7 @@ const PassUsWork = () => {
 
         <img
           src="/assets/passus/mobile.png"
-          className="w-full max-w-[800px] md:hidden"
+          className="w-[80%] max-w-[800px] md:hidden"
           alt="pass us work image"
           loading="lazy"
         />

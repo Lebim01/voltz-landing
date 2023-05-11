@@ -15,7 +15,7 @@ export const loadProducts = async (limit) => {
       'features',
       'tech_file',
       'image_urls',
-      'raw'
+      'maker_web'
     ]
   });
   return res.hits
