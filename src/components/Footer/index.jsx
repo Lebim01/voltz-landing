@@ -1,7 +1,7 @@
-import UseVoltz from "./components/UseVoltz"
-import ContactUs from "./components/ContactUs"
-import JoinCommunity from "./components/JoinCommunity"
-import Voltz from "./components/Voltz"
+import UseVoltz from "./components/UseVoltz";
+import ContactUs from "./components/ContactUs";
+import JoinCommunity from "./components/JoinCommunity";
+import Voltz from "./components/Voltz";
 
 const Footer = () => {
   return (
@@ -13,12 +13,32 @@ const Footer = () => {
         <Voltz />
       </div>
 
-      <div className="flex flex-col md:flex-row justify-center items-center px-[32px] py-[40px] space-y-[16px]">
-        <span className="font-poppins text-text-secondary font-medium text-sm">©2023 Voltz by COCOCO</span>
-        <span className="font-poppins text-text-secondary font-medium text-sm"><a className="underline">Términos, condiciones</a> y <a className="underline">aviso de privacidad</a></span>
+      <div className="w-full px-[32px]">
+        <div className="flex flex-col md:flex-row justify-center items-center px-[32px] py-[40px] space-y-[16px] md:space-y-[0px] md:justify-between w-full box-border">
+          <span className="font-poppins text-text-secondary font-medium text-sm">
+            ©2023 Voltz by COCOCO
+          </span>
+          <span className="font-poppins text-text-secondary font-medium text-sm">
+            <a
+              className="underline"
+              href="https://cococoventures.notion.site/cococoventures/T-rminos-y-Condiciones-0436f36c8d03400d9db3116a92a96673"
+              target="_blank"
+            >
+              Términos, condiciones
+            </a>{" "}
+            y{" "}
+            <a
+              className="underline"
+              href="https://cococoventures.notion.site/cococoventures/AVISO-DE-PRIVACIDAD-INTEGRAL-e737e487c7144353aed20b88341ad3be"
+              target="_blank"
+            >
+              aviso de privacidad
+            </a>
+          </span>
+        </div>
       </div>
     </div>
-  )
-}
+  );
+};
 
-export default Footer
+export default Footer;

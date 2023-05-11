@@ -7,37 +7,40 @@ body {
 }
 
 @font-face {
-  font-family: 'Poppins';
+  font-family: "Poppins";
   font-style: normal;
-  src: local('Poppins'), url(/fonts/poppins/Poppins-Regular.ttf) format('truetype');
+  src: local("Poppins"),
+    url(/fonts/poppins/Poppins-Regular.ttf) format("truetype");
   font-display: swap;
 }
 
 @font-face {
-  font-family: 'PoppinsBold';
+  font-family: "PoppinsBold";
   font-style: normal;
-  src: local('Poppins'), url(/fonts/poppins/Poppins-Bold.ttf) format('truetype');
+  src: local("Poppins"), url(/fonts/poppins/Poppins-Bold.ttf) format("truetype");
   font-display: swap;
 }
 
 @font-face {
-  font-family: 'PoppinsSemiBold';
+  font-family: "PoppinsSemiBold";
   font-style: normal;
-  src: local('Poppins'), url(/fonts/poppins/Poppins-SemiBold.ttf) format('truetype');
+  src: local("Poppins"),
+    url(/fonts/poppins/Poppins-SemiBold.ttf) format("truetype");
   font-display: swap;
 }
 
 @font-face {
-  font-family: 'PoppinsMedium';
+  font-family: "PoppinsMedium";
   font-style: normal;
-  src: local('Poppins'), url(/fonts/poppins/Poppins-Medium.ttf) format('truetype');
+  src: local("Poppins"),
+    url(/fonts/poppins/Poppins-Medium.ttf) format("truetype");
   font-display: swap;
 }
 
 @font-face {
-  font-family: 'Inter';
+  font-family: "Inter";
   font-style: normal;
-  src: local('Inter'), url(/fonts/inter/Inter.ttf) format('truetype');
+  src: local("Inter"), url(/fonts/inter/Inter.ttf) format("truetype");
   font-display: swap;
 }
 
@@ -66,10 +69,46 @@ body {
 }
 
 @keyframes carousel {
-  from {
+  0% {
     transform: translateX(0%);
   }
-  to {
+  5% {
+    transform: translateX(-4%);
+  }
+  10% {
+    transform: translateX(-9%);
+  }
+  15% {
+    transform: translateX(-14%);
+  }
+  20% {
+    transform: translateX(-18%);
+  }
+  25% {
+    transform: translateX(-23%);
+  }
+  30% {
+    transform: translateX(-27%);
+  }
+  40% {
+    transform: translateX(-36%);
+  }
+  50% {
+    transform: translateX(-45%);
+  }
+  60% {
+    transform: translateX(-54%);
+  }
+  70% {
+    transform: translateX(-63%);
+  }
+  80% {
+    transform: translateX(-72%);
+  }
+  90% {
+    transform: translateX(-81%);
+  }
+  100% {
     transform: translateX(-90%);
   }
 }
@@ -81,23 +120,30 @@ a {
 
 .partners-animation {
   animation-name: carousel;
-  /*animation-duration: 30s;*/
+  animation-timing-function: linear; 
+  animation-delay: 0s;
   animation-iteration-count: infinite;
+  animation-direction: alternate;
+  animation-fill-mode: none;
+  animation-play-state: running; 
+}
+
+.carousel-slow {
+  animation-duration: 80s;
 }
 
 .max-lines-1 {
   -webkit-box-orient: vertical;
-  display           : -webkit-box;
+  display: -webkit-box;
   -webkit-line-clamp: 1;
-  overflow          : hidden;
-  text-overflow     : ellipsis;
+  overflow: hidden;
+  text-overflow: ellipsis;
 }
 
 /** Swiper */
 
 .swiper {
   width: 100%;
-  
 }
 
 .swiper-slide {
