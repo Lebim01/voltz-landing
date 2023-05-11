@@ -12,6 +12,7 @@ export const loadProducts = async (limit) => {
       'brand',
       'sku',
       'currency',
+      'sale_unit',
       'price_public',
       'features',
       'tech_file',

@@ -8,6 +8,7 @@ import NotFound from "./NotFound";
 import { loadProducts } from "@/utils/getProducts";
 import Button from "@/components/common/Button";
 import Collapsable from "@/components/common/Collapsable";
+import { formatNumberWithCommas } from "@/utils/number";
 
 const RenderProduct = ({ prod }) => {
   const [opened, setOpened] = useState(false);
@@ -36,7 +37,7 @@ const RenderProduct = ({ prod }) => {
             <span className="text-text-secondary text-sm">{prod.sku}</span>
           </div>
           <span className="text-text-secondary text-base">
-            $ {prod.price_public} {prod.currency}
+            $ {formatNumberWithCommas(prod.price_public, 2)} {prod.sale_unit}
           </span>
           <a href="https://app.voltz.mx/#/login-view">
             <Button className="bg-primary hover:bg-primary-dark text-white px-[24px] py-[10px] font-semibold text-sm w-min whitespace-nowrap">
@@ -105,7 +106,7 @@ const RenderProduct = ({ prod }) => {
               </>
             )}
 
-            {prod.features && (
+            {Array.isArray(prod.features) ? prod.features.length > 0 : Boolean(prod.features) && (
               <div className="flex flex-col space-y-[16px] section-border pb-[16px]">
                 <span className="font-medium text-base text-text-secondary">
                   Especificaciones
