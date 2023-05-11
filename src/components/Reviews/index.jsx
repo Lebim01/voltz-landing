@@ -58,7 +58,7 @@ const Reviews = () => {
           </span>
         </div>
 
-        <div className="flex space-x-[16px] border-[0px] border-b border-solid border-border-1 pb-[40px] md:justify-center">
+        <div className="flex space-x-[16px] border-[0px] border-b border-solid border-border-1 pb-[40px] justify-center">
           <a href="https://app.voltz.mx/#/home-view">
             <Button className="bg-primary hover:bg-primary-dark text-base px-[22px] py-[10px] text-white font-semibold">
               COMPRA YA
