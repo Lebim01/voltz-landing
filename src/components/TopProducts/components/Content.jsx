@@ -27,9 +27,12 @@ const RenderProduct = ({ prod }) => {
         />
         <div className="flex-1 flex flex-col space-y-[8px]">
           <div className="flex flex-col">
-            <span className="text-text-secondary font-semibold text-base">
-              {prod.brand}
-            </span>
+            <div className="flex space-x-[4px] items-center">
+              {prod.brand_favicon && <img src={prod.brand_favicon} height={17} width={16} />}
+              <span className="text-text-secondary font-semibold text-base">
+                {prod.brand}
+              </span>
+            </div>
             <span className="text-text-secondary text-sm">{prod.sku}</span>
           </div>
           <span className="text-text-secondary text-base">

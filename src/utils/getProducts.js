@@ -16,7 +16,8 @@ export const loadProducts = async (limit) => {
       'features',
       'tech_file',
       'image_urls',
-      'maker_web'
+      'maker_web',
+      'brand_favicon'
     ]
   });
   return res.hits
