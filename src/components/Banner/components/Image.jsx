@@ -1,7 +1,7 @@
 const BannerImage = () => {
   return (
-    <div className="flex items-center justify-center w-full">
-      <img src="/banner-image.webp" alt="Banner image" className="w-[56%] md:w-[80%]" />
+    <div className="items-center justify-center w-full flex-1 hidden md:flex">
+      <img src="/banner-image.webp" alt="Banner image" className="w-[80%] md:w-[100%] max-w-[560px]" />
     </div>
   )
 }

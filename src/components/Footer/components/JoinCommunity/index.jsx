@@ -1,7 +1,7 @@
 const JoinCommunity = () => {
   return (
-    <div className="mx-[16px] py-[24px] flex border-[0px] border-b md:border-r md:border-b-[0px] border-border-1 border-solid md:flex-1 md:justify-center">
-      <div className="flex flex-col space-y-[24px] w-min whitespace-nowrap">
+    <div className="mx-[16px] py-[24px] flex border-[0px] border-b md:border-r md:border-b-[0px] border-border-1 border-solid lg:justify-center">
+      <div className="flex flex-col space-y-[24px] w-min whitespace-nowrap px-[16px]">
         <span className="font-semibold text-base text-text-primary">
           Únete a la comunidad
         </span>

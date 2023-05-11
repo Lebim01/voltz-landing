@@ -2,8 +2,8 @@ import Button from "@/components/common/Button";
 
 const UseVoltz = () => {
   return (
-    <div className="bg-bg-transparent">
-      <div className="hidden md:flex flex-col desktop-container px-[32px] 2xl:px-[0px] py-[72px] !items-start relative">
+    <div className="bg-bg-transparent hidden">
+      <div className="hidden md:flex flex-col desktop-container px-[32px] md:px-[48px] 2xl:px-[0px] py-[90px] !items-start relative">
         <div className="flex border-[0px] border-b border-solid border-white/20 pb-[16px] justify-start w-full">
           <div className="flex-1 flex flex-col space-y-[16px]">
             <span className="text-3xl text-white font-poppins">

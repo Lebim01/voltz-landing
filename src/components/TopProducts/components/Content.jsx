@@ -36,7 +36,7 @@ const RenderProduct = ({ prod }) => {
             $ {prod.price_public} {prod.currency}
           </span>
           <a href="https://app.voltz.mx/#/login-view">
-            <Button className="bg-primary hover:bg-primary-dark text-white px-[24px] py-[10px] font-semibold text-sm">
+            <Button className="bg-primary hover:bg-primary-dark text-white px-[24px] py-[10px] font-semibold text-sm w-min whitespace-nowrap">
               MEJORAR PRECIO
             </Button>
           </a>
@@ -94,7 +94,7 @@ const RenderProduct = ({ prod }) => {
                   >
                     {prod.image_urls.map((url, index) => (
                       <SwiperSlide key={`url-${index}`}>
-                        <img src={url} alt="gallery image" loading="lazy" />
+                        <img src={url} alt="gallery image" loading="lazy" className="w-full h-full block" />
                       </SwiperSlide>
                     ))}
                   </Swiper>
@@ -145,7 +145,7 @@ const ContentProducts = (props) => {
 
   return (
     <div className="bg-border-1 px-[16px] py-[16px] lg:py-[64px] pb-[40px]">
-      <div className="desktop-container flex flex-col flex-wrap space-y-[16px] lg:hidden">
+      <div className="desktop-container flex flex-col flex-wrap space-y-[16px] md:hidden">
         {products.map((prod) => (
           <RenderProduct prod={prod} />
         ))}
@@ -154,7 +154,22 @@ const ContentProducts = (props) => {
       </div>
 
       <div className="desktop-container">
-        <div className="grid-cols-3 gap-x-[32px] hidden lg:grid px-[80px]">
+        {/** 2 columns */}
+        <div className="grid-cols-2 gap-x-[20px] hidden md:grid xl:hidden py-[16px] lg:px-[80px]">
+          <div className="flex flex-col space-y-[16px] overflow-hidden h-full">
+            <RenderProduct prod={products[0]} />
+            <RenderProduct prod={products[1]} />
+            <RenderProduct prod={products[2]} />
+          </div>
+
+          <div className="flex flex-col space-y-[16px] overflow-hidden h-full">
+            <RenderProduct prod={products[3]} />
+            <RenderProduct prod={products[4]} />
+            <NotFound />
+          </div>
+        </div>
+        {/** 3 columns */}
+        <div className="grid-cols-3 gap-x-[20px] hidden xl:grid py-[16px] px-[80px]">
           <div className="flex flex-col space-y-[16px] overflow-hidden h-full">
             <RenderProduct prod={products[0]} />
             <RenderProduct prod={products[1]} />

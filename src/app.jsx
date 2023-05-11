@@ -34,7 +34,7 @@ export function App() {
           <UseVoltz />
           <Footer />
         </div>
-        <div className='lg:hidden absolute top-0 right-0 bg-[#E4E9FC] w-[247px] h-screen transition-all duration-300' style={{ transform: opened ? "translateX(0)" : "translateX(247px)" }}>
+        <div className='lg:hidden absolute top-0 right-0 bg-[#E4E9FC] w-[247px] h-[-webkit-fill-available] transition-all duration-300' style={{ transform: opened ? "translateX(0)" : "translateX(247px)" }}>
           <SideBar />
         </div>
       </div>

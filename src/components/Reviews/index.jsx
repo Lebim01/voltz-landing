@@ -14,7 +14,7 @@ const REVIEWS = [
   {
     image: "/assets/reviews/avatar-2.png",
     text: `"Todos los materiales de muy buena calidad y el servicio también muy bueno y eficiente."`,
-    name: "zarekyg1",
+    name: "Gabriela Aragón",
     subname: "Web Designer",
   },
   {
@@ -45,7 +45,7 @@ const REVIEWS = [
 
 const Reviews = () => {
   return (
-    <div className="bg-white px-[17px] py-[40px] desktop-container">
+    <div className="bg-white px-[16px] md:px-[48px] py-[48px] md:py-[90px] desktop-container">
       <div className="flex flex-col space-y-[40px]">
         <div className="flex flex-col space-y-[24px] items-center">
           <span className="text-center text-primary font-semibold text-base md:text-base-md">
@@ -53,7 +53,7 @@ const Reviews = () => {
           </span>
 
           <span className="text-xl font-poppins text-center md:text-2xl text-text-primary max-w-[1000px]">
-            <span className="font-bold font-poppins">Ayudamos a negocios como el tuyo,</span>{" "}
+            <span className="font-bold font-poppins">Ayudamos a negocios, como el tuyo,</span>{" "}
             a ahorrar tiempo y dinero
           </span>
         </div>
@@ -78,7 +78,7 @@ const Reviews = () => {
         <Swiper
           pagination={true}
           modules={[Pagination]}
-          className="h-[450px] md:!hidden"
+          className="h-[330px] md:!hidden"
         >
           {REVIEWS.map((review, index) => (
             <SwiperSlide key={index}>
@@ -87,7 +87,7 @@ const Reviews = () => {
           ))}
         </Swiper>
 
-        <div className="hidden md:grid grid-cols-3">
+        <div className="hidden md:grid md:grid-cols-2 lg:grid-cols-3 gap-x-[22px] gap-y-[22px]">
           {REVIEWS.map((review, index) => (
             <Slide {...review} />
           ))}

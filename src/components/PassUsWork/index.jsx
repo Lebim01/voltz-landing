@@ -2,17 +2,17 @@ import Button from "@/components/common/Button";
 
 const PassUsWork = () => {
   return (
-    <div className="bg-primary px-[18px] py-[40px]">
-      <div className="flex flex-col items-center md md:flex-row space-y-[24px] desktop-container md:space-x-[144px]">
-        <div className="flex flex-col space-y-[24px]">
+    <div className="bg-primary px-[16px] md:px-[48px] py-[48px] md:py-[90px]">
+      <div className="flex flex-col items-center lg:flex-row space-y-[24px] desktop-container lg:space-x-[80px]">
+        <div className="flex flex-col space-y-[24px] flex-1">
           <div className="flex flex-col space-y-[16px]">
             <span className="text-white font-semibold text-xl font-poppins md:text-3xl">
-              ¡Pásanos la chamaba!
+              ¡Pásanos la chamba!
             </span>
             <span className="font-medium text-white text-base-md">
               Si no tienes tiempo para hacerlo tu mismo, nuestros expertos
               buscarán y cotizarán todo el listado de material que necesitas.
-              ¡rapidísimo!
+              ¡Rapidísimo!
             </span>
           </div>
           <a
@@ -33,7 +33,7 @@ const PassUsWork = () => {
         />
         <img
           src="/assets/passus/desktop.png"
-          className="w-full hidden md:block"
+          className="hidden md:block flex-1 w-full lg:w-1/2"
           alt="pass us work image"
           loading="lazy"
         />

@@ -6,7 +6,7 @@ import Voltz from "./components/Voltz"
 const Footer = () => {
   return (
     <div className="desktop-container">
-      <div className="flex flex-col md:flex-row md:py-[72px]">
+      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 md:py-[0px]">
         <UseVoltz />
         <ContactUs />
         <JoinCommunity />

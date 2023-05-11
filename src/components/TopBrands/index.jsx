@@ -21,9 +21,10 @@ const TopBrands = () => {
     <>
       <Collapsable
         id="top-brands"
-        title="Top 3 marcas más populares"
+        title="Catálogo destacado"
         icon="/assets/brands-icon.svg"
-        className={"desktop-container text-base md:text-lg text-text-primary"}
+        iconProps={{ height: 30, width: 30 }}
+        className={"desktop-container text-base md:px-[48px] md:text-lg text-text-primary"}
         opened={opened.opened}
         onToggle={() => {
           setOpened((state) => {

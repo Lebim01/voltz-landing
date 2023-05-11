@@ -2,7 +2,7 @@ import Button from "@/components/common/Button";
 
 const Reason2 = () => {
   return (
-    <div className="flex flex-col md:flex-row space-y-[28px] md:space-y-[0px] md:space-x-[60px] md:items-center">
+    <div className="flex flex-col lg:flex-row space-y-[28px] lg:space-y-[0px] lg:space-x-[60px] lg:items-center">
       <div>
         <img
           src="/assets/reasons/reason-2.svg"
