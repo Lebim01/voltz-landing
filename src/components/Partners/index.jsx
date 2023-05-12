@@ -118,7 +118,7 @@ const partners = [
 
 const Partners = () => {
   return (
-    <div className="bg-white px-[22px] py-[32px] overflow-hidden border-[0px] border-b border-solid border-border-1 relative h-[98px] min-h-[98px] desktop-container">
+    <div className="bg-white px-[22px] py-[32px] overflow-hidden border-[0px] border-b border-solid border-border-1 relative h-[98px] min-h-[98px]">
       <div className="absolute left-[32px] top-[32px] flex space-x-[16px] h-[98px] min-h-[98px] max-h-[98px] partners-animation carousel-slow">
         {partners.map((url) => (
           <div className="h-[98px] w-[98px] min-w-[98px] min-h-[98px] flex items-center justify-center border border-solid border-border-2" key={url}>
