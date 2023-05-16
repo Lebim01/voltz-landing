@@ -122,7 +122,7 @@ const Partners = () => {
       <div className="absolute left-[32px] top-[32px] flex space-x-[16px] h-[98px] min-h-[98px] max-h-[98px] partners-animation carousel-slow">
         {partners.map((url) => (
           <div className="h-[98px] w-[98px] min-w-[98px] min-h-[98px] flex items-center justify-center border border-solid border-border-2" key={url}>
-            <img src={url} alt="Partner logo" className="max-w-[90px] max-h-[90%] object-contain" priority="async" />
+            <img src={url} alt="Partner logo" className="max-w-[60%] max-h-[60%] object-contain" priority="async" />
           </div>
         ))}
       </div>
