@@ -2,6 +2,8 @@ import './app.css'
 import 'swiper/css';
 import 'swiper/css/pagination';
 
+import { inject } from '@vercel/analytics';
+
 import { useEffect, useState } from 'preact/hooks';
 
 import Banner from './components/Banner'
@@ -15,6 +17,8 @@ import TopProducts from './components/TopProducts'
 import UseVoltz from './components/UseVoltz';
 import Footer from './components/Footer';
 import SideBar from './components/Header/components/Sidebar';
+
+inject();
 
 export function App() {
   const [opened, setOpened] = useState(false)
