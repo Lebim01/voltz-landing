@@ -13,11 +13,11 @@ const SideBar = () => {
         </span>
       </a>
 
-      <a href="https://app.voltz.mx" className="w-full box-border">
+      {/*<a href="https://app.voltz.mx" className="w-full box-border">
         <Button className="border border-text-primary border-solid hover:bg-gray-200 font-semibold">
           INICIAR SESIÓN
         </Button>
-      </a>
+      </a>*/}
 
       <a href="https://app.voltz.mx/#/home-view" className="w-full box-border">
         <Button className="w-full bg-primary text-white hover:bg-primary-dark font-semibold box-border">

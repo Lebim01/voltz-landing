@@ -13,11 +13,11 @@ const RightMenu = () => {
         </span>
       </a>
 
-      <a href="https://app.voltz.mx">
+      {/*<a href="https://app.voltz.mx">
         <Button className="w-min whitespace-nowrap border border-text-primary border-solid hover:bg-gray-200 font-semibold">
           INICIAR SESION
         </Button>
-      </a>
+      </a>*/}
 
       <a
         href="https://app.voltz.mx/#/home-view"

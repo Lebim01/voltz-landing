@@ -46,9 +46,9 @@ export function App() {
 
   return (
     <>
+    <Header opened={opened} onToggleMenu={() => setOpened(s => !s)} />  
       <div className='relative overflow-hidden'>
         <div className='bg-white transition-all duration-300 lg:!translate-x-0' style={{ transform: opened ? "translateX(-247px)" : "translateX(0px)" }}>
-          <Header opened={opened} onToggleMenu={() => setOpened(s => !s)} />
           <Banner />
           <Partners />
           <TopProducts />
